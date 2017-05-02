@@ -1,7 +1,3 @@
-require "gw2/api/version"
-
-module Gw2
-  module Api
-    # Your code goes here...
-  end
-end
+require 'gw2/api/version'
+require 'gw2/api/connection'
+require 'gw2/api/characters'
