@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "gw2/api"
+require "gw2/client"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

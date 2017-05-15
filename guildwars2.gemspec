@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gw2/api/version'
+require 'gw2/client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'gw2-api'
+  spec.name          = 'guildwars2-client'
   spec.version       = Gw2::Api::VERSION
   spec.platform      = Gem::Platform::RUBY
   spec.authors       = ['David Hollinger III']
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'REST Client into the Guild Wars 2 API'
   spec.description   = 'REST Client for Ruby and Rails for the Guild Wars 2 REST API'
-  spec.homepage      = 'https://github.com/dhollinger/gw2-api'
+  spec.homepage      = 'https://github.com/dhollinger/guildwars2-client'
   spec.license       = 'MIT'
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
